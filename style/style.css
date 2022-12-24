@@ -1,0 +1,53 @@
+body {
+	background-color: skyblue;
+	font-family: ;
+	background-image: url(../image/image1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+
+}
+
+h1 {
+	color: #0000FA;
+	text-align: center;
+	background-color: skyblue;
+	border-style: solid;
+	border-color: #0000FA;
+
+}
+
+p {
+	color: #0000FA;
+}
+
+h2 {
+	color: #0000FA;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	background-color: skyblue;
+	border-style: solid;
+	border-color: #0000FA;
+	
+}
+
+.animation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mains {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+.others {
+	display: flex;
+}
